@@ -1,0 +1,15 @@
+* Fill menu scenes and implement their refreshes
+
+GameScene:
+* Notify user about special situations (use notification label, add Coworker/Offspring to inventory)
+* Refreshes
+* Especially refresh after undo (recover the whole current game state)
+* NutNull checks
+* Simulations of AI actions (simulation of online player actions)
+* Enable extension of the waterpark (new TokenView class?)
+* Reread the code to make sure every component is enabled/disabled at the right time (make isPossible methods public?)
+* Add icons to save and exit button
+
+TokenManager:
+* Edit the "Tiles.png" with the additional properties 'hasFish' etc. => Done -Marcel
+* Maybe adjust the enum Animal (group trainable and hungry animals)
